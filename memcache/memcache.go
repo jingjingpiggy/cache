@@ -3,13 +3,13 @@ package memcache
 import (
 	"encoding/json"
 	"errors"
+	"github.com/softking/cache/core"
 	"strings"
 
 	"github.com/bradfitz/gomemcache/memcache"
 
 	"time"
 
-	"cache/core"
 )
 
 // Cache Memcache adapter.

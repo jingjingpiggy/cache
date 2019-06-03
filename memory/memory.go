@@ -3,7 +3,8 @@ package memory
 import (
 	"encoding/json"
 	"errors"
-	"cache/core"
+	"github.com/softking/cache/core"
+
 	"sync"
 	"time"
 )

@@ -8,7 +8,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"cache/core"
+	"github.com/softking/cache/core"
+
 	"io"
 	"os"
 	"path/filepath"

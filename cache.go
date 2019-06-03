@@ -2,11 +2,11 @@ package cache
 
 import (
 	"fmt"
-	"cache/core"
-	"cache/file"
-	"cache/memcache"
-	"cache/memory"
-	"cache/redis"
+	"github.com/softking/cache/core"
+	"github.com/softking/cache/file"
+	"github.com/softking/cache/memcache"
+	"github.com/softking/cache/memory"
+	"github.com/softking/cache/redis"
 )
 
 // Register makes a cache adapter available by the adapter name.

@@ -3,16 +3,17 @@ package redis
 import (
 	"encoding/json"
 	"errors"
+	"github.com/softking/cache/core"
 	"strconv"
 	"time"
 
 	"github.com/garyburd/redigo/redis"
-	"cache/core"
+
 )
 
 var (
 	// DefaultKey the collection name of redis for cache adapter.
-	DefaultKey = "wcache_redis"
+	DefaultKey = "cache_redis"
 )
 
 // Cache is Redis cache adapter.
